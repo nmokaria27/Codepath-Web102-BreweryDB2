@@ -1,0 +1,54 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.summary-stats {
+  padding: 1rem;
+  background-color: #ecf0f1;
+}
+
+.search-bar,
+.filters {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.search-bar input,
+.filters input {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+
+.brewery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brewery-card {
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 300px;
+}
+
+.brewery-card h3 {
+  margin-top: 0;
+}
+
+.brewery-card a {
+  color: #2980b9;
+  text-decoration: none;
+}
