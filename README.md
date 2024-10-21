@@ -22,8 +22,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
+- [X] Multiple filters can be applied simultaneously
+- [X] Filters use different input types such as a text input, a selection, or a slider
 - [X] The user can enter specific bounds for filter values
 
 ## Video Walkthrough
