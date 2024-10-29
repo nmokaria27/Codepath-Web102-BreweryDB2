@@ -37,7 +37,7 @@ header {
 }
 
 .brewery-card {
-  border: 1px solid #bdc3c7;
+  border: 1px solid #54636d;
   border-radius: 5px;
   padding: 1rem;
   margin: 0.5rem;
@@ -51,4 +51,32 @@ header {
 .brewery-card a {
   color: #2980b9;
   text-decoration: none;
+}
+
+.data-visualization {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.detail-view {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.detail-view h2 {
+  color: #2c3e50;
+}
+
+.detail-view a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.detail-view a:hover {
+  text-decoration: underline;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import BreweryCard from './BreweryCard.jsx';
 
-function BreweryList({ breweries, searchQuery, filters }) {
+export default function BreweryList({ breweries, searchQuery, filters }) {
   const filteredBreweries = breweries
     .filter(b =>
       b.name && b.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -41,5 +41,3 @@ function BreweryList({ breweries, searchQuery, filters }) {
     </div>
   );
 }
-
-export default BreweryList;
